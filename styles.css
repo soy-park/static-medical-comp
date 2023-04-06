@@ -4,7 +4,7 @@
 
 nav {
     background-color: white;
-    border: 2px solid rgb(50, 50, 50);
+    border: 1px solid #f29109;
     height: 11em;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@ nav {
 }
 
 .username {
-    color: rgb(22, 114, 167);
+    color: #2Ec4b6;
     font-size: 18px;
     font-weight: bold;
     padding-left: 0.3em;
@@ -46,6 +46,15 @@ nav {
     font-size: 22px;
 }
 
+.playlists, 
+.biographies {
+    color: #ffbf69;
+}
+
+.articles {
+    color: #f29109;
+}
+
 .articles-icon {
     margin-left: 1.6em;
     margin-right: 0.6em;
@@ -65,12 +74,68 @@ nav {
 }
 
 #to-heal {
-    font-size: 52px;
+    font-size: 54px;
     font-weight: 900;
-    margin: 0em 0.2em 0em 11.5em;
+    margin: 0em 0.2em 0em 11em;
 }
 
 .medical-icon {
     margin: 0em 1.8em 0em 0em;
     padding-bottom: 0.8em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #d5f3f1;
+}
+
+h1 {
+    font-size: 48px;
+    color: #28a79a;
+    margin: 0.5em 0em 0.5em 0.4em;
+}
+
+.box {
+    border: 0.5px solid #f29109;
+    box-shadow: 0 0 15px rgb(0 0 0 / 0.2);
+    width: 284px;
+    height: 402px;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.upper-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 146px;
+}
+
+.redirect-icon {
+    width: 66px;
+    height: 66px;
+}
+
+.views-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.views {
+    font-size: 15px;
+    margin: 1em 1.5em 0em 2em;
+}
+
+.view-count {
+    font-size: 38px;
+    margin: 0em 1.5em 0em 2em;
+}
+
+.article-link {
+    flex-wrap: wrap;
 }
