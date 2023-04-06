@@ -3,7 +3,7 @@
 }
 
 nav {
-    background-color: #ffbf69;
+    background-color: white;
     border: 1px solid #f29109;
     height: 11em;
     display: flex;
@@ -54,7 +54,7 @@ nav {
 }
 
 .articles {
-    color: white;
+    color: #ffbf69;
 }
 
 .articles-icon {
@@ -76,7 +76,7 @@ nav {
 }
 
 #to-heal {
-    color: white;
+    color: #ffbf69;
     font-size: 54px;
     font-weight: 900;
     margin: 0em 0.2em 0em 11em;
@@ -91,26 +91,26 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #d5f3f1;
+    padding: 0em 1.5em 0em 1.3em;
 }
 
 h1 {
     font-size: 48px;
-    color: #28a79a;
-    margin: 0.5em 0em 0.5em 0.4em;
+    color: #f29109;
+    margin: 0.5em 0em 0.5em 0em;
 }
 
 .box {
-    border: 0.5px solid white;
     box-shadow: 0 0 15px rgb(0 0 0 / 0.2);
     background-color: white;
-    width: 24vw;
+    width: 23.5vw;
     height: 60vh;
 }
 
 .first-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .upper-section {
@@ -155,6 +155,15 @@ h1 {
 #upper-box-2 {
     background-size: 345px;
     background-image: url("assets/Cardiovascular.jpg");
+}
+
+#upper-box-3 {
+    background-size: 390px;
+    background-image: url("assets/Dermatology.jpg");
+}
+
+#upper-box-4 {
+    background-image: url("assets/Genetics.jpg");
 }
 
 .author {
