@@ -3,7 +3,7 @@
 }
 
 nav {
-    background-color: white;
+    background-color: #ffbf69;
     border: 1px solid #f29109;
     height: 11em;
     display: flex;
@@ -21,6 +21,7 @@ nav {
     width: 35px;
     height: 35px;
     margin-top: 0.7em;
+    border-radius: 50px;
 }
 
 .username {
@@ -40,6 +41,7 @@ nav {
 .heading-tabs img {
     width: 37px;
     height: 37px;
+    border-radius: 50px;
 }
 
 .heading-tabs p {
@@ -48,11 +50,11 @@ nav {
 
 .playlists, 
 .biographies {
-    color: #ffbf69;
+    color: #f29109;
 }
 
 .articles {
-    color: #f29109;
+    color: white;
 }
 
 .articles-icon {
@@ -74,6 +76,7 @@ nav {
 }
 
 #to-heal {
+    color: white;
     font-size: 54px;
     font-weight: 900;
     margin: 0em 0.2em 0em 11em;
@@ -97,8 +100,9 @@ h1 {
 }
 
 .box {
-    border: 0.5px solid #f29109;
+    border: 0.5px solid white;
     box-shadow: 0 0 15px rgb(0 0 0 / 0.2);
+    background-color: white;
     width: 284px;
     height: 402px;
 }
@@ -153,6 +157,21 @@ h1 {
     background-image: url("assets/Cardiovascular.jpg");
 }
 
+.author {
+    font-size: 22px;
+    margin: 0.6em 0em 0em 1em;
+}
+
+.date {
+    color: grey;
+    margin: 0em 0em 0.5em 1.3em;
+}
+
 .article-link {
     flex-wrap: wrap;
+    color: rgb(109, 103, 103);
+    font-weight: 900;
+    background-color: #f5ddbf;
+    margin: 1.3em 1.3em 1em 1.3em;
+    padding: 0.5em 0.5em 1em 0.5em;
 }
