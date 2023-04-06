@@ -180,6 +180,16 @@ h1 {
     background-image: url("assets/Neurology.jpg");
 }
 
+#upper-box-7 {
+    background-size: 280px;
+    background-image: url("assets/Urology.jpg");
+}
+
+#upper-box-8 {
+    background-size: 280px;
+    background-image: url("assets/Ophthalmology.jpg");
+}
+
 .author {
     font-size: 22px;
     margin: 0.6em 0em 0em 1em;
