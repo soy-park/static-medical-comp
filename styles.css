@@ -145,6 +145,7 @@ h1 {
 #upper-box-1 {
     background-size: 285px;
     background-image: url("assets/Bone.jpg");
+    backdrop-filter: brightness(60%);
 }
 
 #upper-box-2 {
