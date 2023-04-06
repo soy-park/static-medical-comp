@@ -2,3 +2,75 @@
     font-family: "EB Garamond", serif;
 }
 
+nav {
+    background-color: white;
+    border: 2px solid rgb(50, 50, 50);
+    height: 11em;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0.1em 1.8em 1.5em 2em;
+}
+
+.user-heading img {
+    width: 35px;
+    height: 35px;
+    margin-top: 0.7em;
+}
+
+.username {
+    color: rgb(22, 114, 167);
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 0.3em;
+    padding-right: 0.5em;
+}
+
+.heading-tabs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.heading-tabs img {
+    width: 37px;
+    height: 37px;
+}
+
+.heading-tabs p {
+    font-size: 22px;
+}
+
+.articles-icon {
+    margin-left: 1.6em;
+    margin-right: 0.6em;
+    padding-bottom: 1em;
+}
+
+.playlist-icon {
+    margin-left: 3em;
+    margin-right: 0.8em;
+    padding-bottom: 1em;
+}
+
+.biography-icon {
+    margin-left: 3em;
+    margin-right: 0.4em;
+    padding-bottom: 1em;
+}
+
+#to-heal {
+    font-size: 52px;
+    font-weight: 900;
+    margin: 0em 0.2em 0em 11.5em;
+}
+
+.medical-icon {
+    margin: 0em 1.8em 0em 0em;
+    padding-bottom: 0.8em;
+}
