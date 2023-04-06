@@ -187,3 +187,9 @@ h1 {
     font-weight: bold;
     margin: 0em 0em 0.5em 1em;
 }
+
+.number-of-attachments {
+    font-size: 38px;
+    color: #f29109;
+    margin: 0em 0em 2em 0.5em;
+}
