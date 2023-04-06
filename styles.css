@@ -175,3 +175,15 @@ h1 {
     margin: 1.1em 1.3em 1em 1.3em;
     padding: 0.5em 0.5em 1em 0.5em;
 }
+
+.article, 
+.attachments {
+    font-weight: bold;
+    margin: 1.2em 0em 0em 1.3em;
+}
+
+.subject {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0em 0em 0.5em 1em;
+}
